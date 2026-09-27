@@ -436,9 +436,6 @@
 				<v8:content>Виды субконто</v8:content>
 			</v8:item>
 		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfCharacteristicTypesRef.ВидыСубконтоХозрасчетные</v8:Type>
-		</valueType>
 		<value xsi:type="dcscor:DesignTimeValue">ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Контрагенты</value>
 		<value xsi:type="dcscor:DesignTimeValue">ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.Договоры</value>
 		<value xsi:type="dcscor:DesignTimeValue">ПланВидовХарактеристик.ВидыСубконтоХозрасчетные.ДокументыРасчетовСКонтрагентами</value>
@@ -454,9 +451,6 @@
 				<v8:content>Счет расчетов с покупателями</v8:content>
 			</v8:item>
 		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:ChartOfAccountsRef.Хозрасчетный</v8:Type>
-		</valueType>
 		<value xsi:type="dcscor:DesignTimeValue">ПланСчетов.Хозрасчетный.РасчетыСПокупателями</value>
 		<useRestriction>true</useRestriction>
 		<availableAsField>false</availableAsField>
@@ -534,7 +528,6 @@
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
 					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
-					<dcsset:viewMode>QuickAccess</dcsset:viewMode>
 					<dcsset:userSettingID>2bb3c935-0a3d-45f0-b509-bbd62b5d2450</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
@@ -543,21 +536,17 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ДатаОтчета</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:viewMode>QuickAccess</dcsset:viewMode>
 					<dcsset:userSettingID>6665abee-2697-4e11-9561-ec773a1f98c1</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Организация</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:viewMode>QuickAccess</dcsset:viewMode>
 					<dcsset:userSettingID>9c6e996b-ff52-4618-94d1-faac2e2e5157</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>true</dcscor:use>
 					<dcscor:parameter>СрокОплатыПоУмолчанию</dcscor:parameter>
 					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
-					<dcsset:viewMode>QuickAccess</dcsset:viewMode>
 					<dcsset:userSettingID>d3203af7-8ac8-4923-b45d-c1c6eb028580</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
@@ -587,12 +576,12 @@
 			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Заголовок</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">Просроченная дебиторская задолженность</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
 					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Просроченная дебиторская задолженность</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>

@@ -64,12 +64,18 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Продажи</Subsystem>
+			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
+			<StyleItem>ГруппаВариантовОтчетовВажнаяШрифт</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ЦветВыделенияКонтрагентаСОшибкой</StyleItem>
+			<StyleItem>НадписьПоясняющаяГиперссылку</StyleItem>
 			<Role>ПолныеПрава</Role>
 			<Role>АдминистраторСистемы</Role>
 			<Role>ДобавлениеИзменениеДанныхБухгалтерии</Role>
 			<Role>кд_ОтгрузкаСверхЛимита</Role>
 			<CommonModule>кд_КонтрольКредитногоЛимита</CommonModule>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>Организации</Catalog>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Report>кд_ПросроченнаяДебиторскаяЗадолженность</Report>
 		</ChildObjects>

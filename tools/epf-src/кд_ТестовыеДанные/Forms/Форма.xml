@@ -1,30 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<ExternalDataProcessor uuid="33866b15-be43-41be-b284-c747355a90b1">
-		<InternalInfo>
-			<xr:ContainedObject>
-				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
-				<xr:ObjectId>1f8fd9cc-886d-4d38-851e-fe76e0f896fd</xr:ObjectId>
-			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.кд_ТестовыеДанные" category="Object">
-				<xr:TypeId>f5fea1e7-cbe5-4b35-98df-0264a6bad7a9</xr:TypeId>
-				<xr:ValueId>978ec33b-546d-47d5-9476-adac34e65372</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<Form uuid="f390da9f-13f8-4a4d-8817-3622b1d64974">
 		<Properties>
-			<Name>кд_ТестовыеДанные</Name>
+			<Name>Форма</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Тестовые данные BUH-214</v8:content>
+					<v8:content>Форма</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.кд_ТестовыеДанные.Form.Форма</DefaultForm>
-			<AuxiliaryForm/>
+			<FormType>Managed</FormType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">MobilePlatformApplication</v8:Value>
+			</UsePurposes>
+			<ExtendedPresentation/>
 		</Properties>
-		<ChildObjects>
-			<Form>Форма</Form>
-		</ChildObjects>
-	</ExternalDataProcessor>
+	</Form>
 </MetaDataObject>
