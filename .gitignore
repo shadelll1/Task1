@@ -23,7 +23,3 @@ desktop.ini
 .idea/
 
 # ВАЖНО: src/ConfigDumpInfo.xml НЕ игнорируем — на нём держится инкрементальная выгрузка.
-
-_auto.status
-_auto.out
-_commit-message.txt
