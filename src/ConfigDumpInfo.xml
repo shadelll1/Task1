@@ -6,16 +6,16 @@
 			<Metadata name="Catalog.Контрагенты.Attribute.кд_ЛимитЗадолженности" id="7393d56c-1e3d-4167-989c-4c7c37c857e0"/>
 		</Metadata>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="200c616e-2f73-472f-a58d-f8678e50fa16" configVersion="18232ca5457bb641031685d406c31e6e3f20e696"/>
-		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="200c616e-2f73-472f-a58d-f8678e50fa16.0" configVersion="3ca481ef10356223768f0189381dcf1740092263"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="200c616e-2f73-472f-a58d-f8678e50fa16.0" configVersion="0f04e0de519803e5de509607e8aca41bc4ddd978"/>
 		<Metadata name="Catalog.Организации" id="ec1bcff6-f0be-43d7-b252-5489a70dbab8" configVersion="d085d5707b60a0e3ced2b2598b0b22d5c7ceee7b"/>
 		<Metadata name="CommonModule.кд_КонтрольКредитногоЛимита" id="3c5ebc0e-ba53-4aa4-ad95-7be82011ffe2" configVersion="c931e4580abcbbe79ade6c17c3c1dfa380f0b76b"/>
-		<Metadata name="CommonModule.кд_КонтрольКредитногоЛимита.Module" id="3c5ebc0e-ba53-4aa4-ad95-7be82011ffe2.0" configVersion="83d5913976f5d9a4dbb1207db4867c7ae1375d03"/>
+		<Metadata name="CommonModule.кд_КонтрольКредитногоЛимита.Module" id="3c5ebc0e-ba53-4aa4-ad95-7be82011ffe2.0" configVersion="30919f4d05ff21965e7df68f6fcc1f0a59dcd9b4"/>
 		<Metadata name="Configuration.БП_КонтрольДолгов" id="8e3adb2e-d954-480e-b4e0-2d76de5cc55a" configVersion="2c43ac2c88751ceab2e3454252802051d9a0e455"/>
 		<Metadata name="Document.РеализацияТоваровУслуг" id="39ff9cbc-ec48-484b-8602-9b936ad2b4ca" configVersion="51e776e88c5ce1e8f73bd3cb179d9d31b5403aa0"/>
-		<Metadata name="Document.РеализацияТоваровУслуг.ObjectModule" id="39ff9cbc-ec48-484b-8602-9b936ad2b4ca.0" configVersion="3676f6dfe7daf1b245f24c68e93ffe6ad3c9b386"/>
+		<Metadata name="Document.РеализацияТоваровУслуг.ObjectModule" id="39ff9cbc-ec48-484b-8602-9b936ad2b4ca.0" configVersion="f02b4489929c38bbfa57c98d14c6f3f663e9e0cd"/>
 		<Metadata name="Language.Русский" id="ec84b52b-0011-427d-8402-f24732dae7b4" configVersion="f8fc25693a4a5fd8783f1b56a0e794a2a7e95dff"/>
 		<Metadata name="Report.кд_ПросроченнаяДебиторскаяЗадолженность" id="834e74ae-e155-4a9c-a4a2-68966e4d7053" configVersion="229e554844df201a5509bb4c253e49ac1c2dc31b"/>
-		<Metadata name="Report.кд_ПросроченнаяДебиторскаяЗадолженность.ObjectModule" id="834e74ae-e155-4a9c-a4a2-68966e4d7053.0" configVersion="e94a1725720ec06d2cadc1e4da64420d962a993e"/>
+		<Metadata name="Report.кд_ПросроченнаяДебиторскаяЗадолженность.ObjectModule" id="834e74ae-e155-4a9c-a4a2-68966e4d7053.0" configVersion="12b81539c1507e5de86f39cee0ea5b98b11693a3"/>
 		<Metadata name="Report.кд_ПросроченнаяДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных" id="515d5f40-bd0f-4e73-978a-253298937fbc" configVersion="806741f5062adf4172bd251fc6a87a2127bfb5bb"/>
 		<Metadata name="Report.кд_ПросроченнаяДебиторскаяЗадолженность.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="515d5f40-bd0f-4e73-978a-253298937fbc.0" configVersion="146b80b4504ca7a2fd07bc1251379bd73faac997"/>
 		<Metadata name="Role.АдминистраторСистемы" id="ceb3bde0-0941-4f3b-925c-8064c6cee22c" configVersion="80c479340fa00d0940d2e5127ccf7dc723b3118c"/>
@@ -26,7 +26,7 @@
 		<Metadata name="Role.ПолныеПрава.Rights" id="24008b9e-c237-4120-8989-fe6504ee2655.0" configVersion="720f8b9fe0e7c122c22b5247b427aeb4afa56775"/>
 		<Metadata name="Role.кд_ОтгрузкаСверхЛимита" id="1b965b55-07d1-4ce4-9264-3eb5fb3084f8" configVersion="46d6b01c4817f7f01aecb0507427e4851e907529"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="34010020-d671-49de-b2b7-760b36709d3e" configVersion="3c27260c4f570c6ebc796ba5fde18b03c30c43d5"/>
-		<Metadata name="StyleItem.ГруппаВариантовОтчетовВажнаяШрифт" id="84c12d7b-40e1-4901-a9c8-3f4afdec523b" configVersion="b734cb10f03292e4a3eca0efbf38f1a1caf34c29"/>
+		<Metadata name="StyleItem.ГруппаВариантовОтчетовВажнаяШрифт" id="84c12d7b-40e1-4901-a9c8-3f4afdec523b" configVersion="7034f7eb151556fb22dafc0fb5ae06c40afe0b1f"/>
 		<Metadata name="StyleItem.НадписьПоясняющаяГиперссылку" id="1e7d15a9-69c9-4fc9-a182-8195a25f4c0c" configVersion="0375da31cfc1c3ba7b71b53d9479ff88a9471eb5"/>
 		<Metadata name="StyleItem.ПоясняющийТекст" id="4c11c28f-1ad8-4977-8253-91f364211770" configVersion="e6c5d3115a7009750109764c364c327fa15996ed"/>
 		<Metadata name="StyleItem.ЦветВыделенияКонтрагентаСОшибкой" id="1afef076-57cc-4bc3-bb63-95b02d9a757a" configVersion="d273c790423e98300a29081bee63856d2cb7b01c"/>
