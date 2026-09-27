@@ -1,0 +1,29 @@
+# Логи Конфигуратора
+*.log
+
+# Локальные настройки подключения (пути конкретной машины)
+.1c-devbase.ps1
+.1c-devbase.bat
+
+# Базы, бэкапы, бинарные сборки
+*.dt
+*.cf
+*.cfe
+*.1CD
+/build/
+
+# Временные файлы
+*.tmp
+~$*
+Thumbs.db
+desktop.ini
+
+# Редакторы
+.vscode/
+.idea/
+
+# ВАЖНО: src/ConfigDumpInfo.xml НЕ игнорируем — на нём держится инкрементальная выгрузка.
+
+_auto.status
+_auto.out
+_commit-message.txt
